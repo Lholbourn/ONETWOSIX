@@ -8,5 +8,8 @@ As a team, we presented this project to the public at the Le Wagon Demo Day at t
 
 [<img src="https://i.ytimg.com/vi/TOaAPiKtnic/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&amp;rs=AOn4CLCbyIoBBJ-7BRXlnkUUuRpuFoxrMg" width="50%">](https://youtu.be/TOaAPiKtnic?t=3805)
 
+This project is primarily done with Ruby on Rails (Rails 5), with JS for asynchronous actions & DOM manipulation, alongside HTML, CSS.
+To run on your machine, you must be able to run RoR and to create a database (<b>rails db:create</b>) using postgreSQL, and download all gems assocciated using console commands <b>
+yarn install</b> and <b>bundle install</b>. You will need to get API keys for UNoGS (https://rapidapi.com/unogs/api/unogs/endpoints), and a Google API key to use their youtube search API (https://www.npmjs.com/package/youtube-search). Once you have API keys, seed (<b>rails db:seed</b>) and migrate (<b>rails db:migrate</b>). To host to local server, type the following command into your terminal; <b>rails server</b> (or <b>rails s</b>) and follow the url it provides.
 
 Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
